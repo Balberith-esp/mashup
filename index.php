@@ -63,7 +63,7 @@
         <?php
 
             if(isset($respFrase)){
-                var_dump($respFrase);
+                echo $respFrase->message;
             }
 
         ?>
